@@ -69,8 +69,7 @@ public class CustomerList {
         }
         customers[total - 1] = null; //将前移后剩下的最后一个置空。
         total--;
-        //以上两行也可以简写为一行↓
-        // customers[--total];
+        // customers[--total]; 以上两行也可以简写为一行
         return true;
     }
 
@@ -102,7 +101,7 @@ public class CustomerList {
 
     /**
      * @return 返回当前客户数量
-     * @Description 获取存储的客户的数量
+     * 获取存储的客户的数量
      */
     public int getTotal() {
         return total;
